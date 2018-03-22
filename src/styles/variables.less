@@ -1,0 +1,61 @@
+
+@primary-color          : #f36f2a;
+@info-color             : #2781EE;
+@success-color          : #19be6b;
+@warning-color          : #ff9900;
+@error-color            : #ed3f14;
+@link-color             : #f36f2a;
+
+@table-td-hover-bg            : #fbf5f1;
+@table-td-highlight-bg        : @table-td-hover-bg;
+
+@font-size-base         : 16px;
+@font-size-small 		: 14px;
+@btn-font-size          : @font-size-small;
+@btn-font-size-large    : @font-size-base;
+
+
+@text-color             : #4d1b01;
+
+.transition-02 {transition: all 0.2s ease;}
+.transition-05 {
+	transition: all 0.5s ease;
+}
+.color-primary {
+	color: @primary-color;
+}
+
+.color-warning {
+	color: @warning-color;
+}
+.color-danger {
+	color: @error-color;
+}
+.color-success {
+	color: @success-color;
+}
+
+
+.clear:after,
+.clear:before {
+	display: table;
+	content: '';
+}
+.clear:after {
+	clear: both;
+}
+.fn-left {
+	float: left;
+}
+.fn-right {
+	float: right;
+}
+.fn-hide {
+	display: none;
+}
+.fn-text-overflow {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+a.link:hover{text-decoration: underline;}
